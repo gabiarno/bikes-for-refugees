@@ -173,6 +173,29 @@ button.volunteer:hover,
   }
 }
 
+/*Flexbox practice*/
+.flexbox-pratice{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  
+  padding: 2rem;
+
+}
+
+.flexbox-pratice div:first-child{
+  background-color: grey;
+  
+
+}
+
+.flexbox-pratice div:last-child{
+  background-color: #e4e3e3;
+  border: 1px solid rgb(112, 111, 111);
+  
+
+}
+
 
 /* Headings */
 

@@ -29,6 +29,8 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 0;
 }
 
+
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -95,7 +97,36 @@ p {
 
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+button {
+  color: #ce5f31;
+}
+button.btn {
+  background: #ce5f31;
+  color: #292b2c;
+}
+
+button:hover, button:focus {
+  color: #2a1208;
+  background: #798de7;
+}
+button.btn:hover,
+.btn:focus {
+  background: #d4a628;
+  color: #1b1b14;
+}
+button.volunteer:hover,
+.btn:focus {
+  background: #13c339;
+  color: #c3e9ba;
+}
+
+/***********Title media fit************/
+
+@media screen and (max-width: 320px) {
+  button.btn{
+    font-size: 0.8rem;
+  }
+}
 
 
 /* Content */
@@ -132,6 +163,14 @@ p {
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+}
+
+/***********Title media fit************/
+
+@media screen and (max-width: 320px) {
+  .hero h1{
+    font-size: 1.5rem;
+  }
 }
 
 
